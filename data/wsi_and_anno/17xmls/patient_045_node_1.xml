@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<ASAP_Annotations>
+	<Annotations>
+		<Annotation Name="Annotation 0" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="34986" Y="46089.3984" />
+				<Coordinate Order="1" X="35043.5" Y="46124.6016" />
+				<Coordinate Order="2" X="35105.8984" Y="46143.6992" />
+				<Coordinate Order="3" X="35168.3008" Y="46119.8008" />
+				<Coordinate Order="4" X="35225.8008" Y="46091" />
+				<Coordinate Order="5" X="35253" Y="46031.8008" />
+				<Coordinate Order="6" X="35305.8008" Y="45991.8008" />
+				<Coordinate Order="7" X="35369.6992" Y="46001.3984" />
+				<Coordinate Order="8" X="35400.1016" Y="46030.1992" />
+				<Coordinate Order="9" X="35385.6992" Y="46060.6016" />
+				<Coordinate Order="10" X="35320.1992" Y="46081.3984" />
+				<Coordinate Order="11" X="35265.8008" Y="46079.8008" />
+				<Coordinate Order="12" X="35253" Y="46119.8008" />
+				<Coordinate Order="13" X="35253" Y="46140.6016" />
+				<Coordinate Order="14" X="35206.6016" Y="46188.5" />
+				<Coordinate Order="15" X="35153.8984" Y="46228.5" />
+				<Coordinate Order="16" X="35123.5" Y="46287.6992" />
+				<Coordinate Order="17" X="35110.6992" Y="46356.3984" />
+				<Coordinate Order="18" X="35107.5" Y="46430" />
+				<Coordinate Order="19" X="35113.8984" Y="46489.1016" />
+				<Coordinate Order="20" X="35133.1016" Y="46553.1016" />
+				<Coordinate Order="21" X="35174.6992" Y="46623.3984" />
+				<Coordinate Order="22" X="35216.1992" Y="46674.6016" />
+				<Coordinate Order="23" X="35267.3984" Y="46716.1992" />
+				<Coordinate Order="24" X="35328.1992" Y="46743.3984" />
+				<Coordinate Order="25" X="35393.6992" Y="46769" />
+				<Coordinate Order="26" X="35427.3008" Y="46805.6992" />
+				<Coordinate Order="27" X="35492.3984" Y="46862.3984" />
+				<Coordinate Order="28" X="35482.3984" Y="46912.1016" />
+				<Coordinate Order="29" X="35515.5" Y="46955.3008" />
+				<Coordinate Order="30" X="35565.6016" Y="46972.5" />
+				<Coordinate Order="31" X="35602.5" Y="46950.3984" />
+				<Coordinate Order="32" X="35600.1016" Y="46916.1016" />
+				<Coordinate Order="33" X="35666.1016" Y="46917.6016" />
+				<Coordinate Order="34" X="35678.6016" Y="46849" />
+				<Coordinate Order="35" X="35672.1016" Y="46788.1992" />
+				<Coordinate Order="36" X="35675.1992" Y="46774.6016" />
+				<Coordinate Order="37" X="35664.8984" Y="46755.1992" />
+				<Coordinate Order="38" X="35644.8008" Y="46732.1992" />
+				<Coordinate Order="39" X="35663.8984" Y="46669.8008" />
+				<Coordinate Order="40" X="35651.1992" Y="46642.6016" />
+				<Coordinate Order="41" X="35624" Y="46641" />
+				<Coordinate Order="42" X="35632" Y="46577.1016" />
+				<Coordinate Order="43" X="35640" Y="46529.1016" />
+				<Coordinate Order="44" X="35619.1992" Y="46468.3008" />
+				<Coordinate Order="45" X="35600" Y="46406" />
+				<Coordinate Order="46" X="35601.6016" Y="46353.1992" />
+				<Coordinate Order="47" X="35663.8984" Y="46335.6016" />
+				<Coordinate Order="48" X="35684.6992" Y="46337.1992" />
+				<Coordinate Order="49" X="35723.1016" Y="46322.8008" />
+				<Coordinate Order="50" X="35739.1016" Y="46289.3008" />
+				<Coordinate Order="51" X="35719.1016" Y="46240.8008" />
+				<Coordinate Order="52" X="35783" Y="46199.5" />
+				<Coordinate Order="53" X="35822.5" Y="46129.8984" />
+				<Coordinate Order="54" X="35809.3008" Y="46054.8008" />
+				<Coordinate Order="55" X="35769.8008" Y="46026.6016" />
+				<Coordinate Order="56" X="35726.6016" Y="46013.3984" />
+				<Coordinate Order="57" X="35794.3008" Y="45975.8008" />
+				<Coordinate Order="58" X="35845" Y="45919.3984" />
+				<Coordinate Order="59" X="35863.8008" Y="45846.1016" />
+				<Coordinate Order="60" X="35944.6016" Y="45808.5" />
+				<Coordinate Order="61" X="36001" Y="45757.8008" />
+				<Coordinate Order="62" X="36036.6992" Y="45688.3008" />
+				<Coordinate Order="63" X="36048" Y="45630" />
+				<Coordinate Order="64" X="36042.3984" Y="45552.8984" />
+				<Coordinate Order="65" X="36034.8984" Y="45470.1992" />
+				<Coordinate Order="66" X="36023.6016" Y="45395" />
+				<Coordinate Order="67" X="36036.6992" Y="45319.8984" />
+				<Coordinate Order="68" X="36089.3984" Y="45265.3984" />
+				<Coordinate Order="69" X="36049.8984" Y="45199.6016" />
+				<Coordinate Order="70" X="36046.1016" Y="45122.5" />
+				<Coordinate Order="71" X="36044.3008" Y="45054.8008" />
+				<Coordinate Order="72" X="36051.8008" Y="44977.8008" />
+				<Coordinate Order="73" X="36023.6016" Y="44895.1016" />
+				<Coordinate Order="74" X="35991.6016" Y="44825.5" />
+				<Coordinate Order="75" X="35965.3008" Y="44750.3984" />
+				<Coordinate Order="76" X="35970.8984" Y="44697.6992" />
+				<Coordinate Order="77" X="36014.1992" Y="44654.5" />
+				<Coordinate Order="78" X="35993.5" Y="44615" />
+				<Coordinate Order="79" X="35950.3008" Y="44624.3984" />
+				<Coordinate Order="80" X="35937.1016" Y="44658.3008" />
+				<Coordinate Order="81" X="35877" Y="44705.1992" />
+				<Coordinate Order="82" X="35801.8008" Y="44720.3008" />
+				<Coordinate Order="83" X="35730.3984" Y="44754.1016" />
+				<Coordinate Order="84" X="35664.6016" Y="44799.1992" />
+				<Coordinate Order="85" X="35593.1992" Y="44829.3008" />
+				<Coordinate Order="86" X="35518" Y="44844.3008" />
+				<Coordinate Order="87" X="35442.8008" Y="44836.8008" />
+				<Coordinate Order="88" X="35360.1016" Y="44846.1992" />
+				<Coordinate Order="89" X="35316.8984" Y="44851.8984" />
+				<Coordinate Order="90" X="35260.5" Y="44902.6016" />
+				<Coordinate Order="91" X="35230.3984" Y="44972.1016" />
+				<Coordinate Order="92" X="35194.6992" Y="45041.6992" />
+				<Coordinate Order="93" X="35175.8984" Y="45115" />
+				<Coordinate Order="94" X="35166.5" Y="45190.1992" />
+				<Coordinate Order="95" X="35149.6016" Y="45254.1016" />
+				<Coordinate Order="96" X="35085.6992" Y="45212.6992" />
+				<Coordinate Order="97" X="35010.5" Y="45201.3984" />
+				<Coordinate Order="98" X="34940.8984" Y="45246.6016" />
+				<Coordinate Order="99" X="34892.1016" Y="45304.8008" />
+				<Coordinate Order="100" X="34854.5" Y="45370.6016" />
+				<Coordinate Order="101" X="34803.6992" Y="45427" />
+				<Coordinate Order="102" X="34751.1016" Y="45481.5" />
+				<Coordinate Order="103" X="34711.6016" Y="45549.1992" />
+				<Coordinate Order="104" X="34715.3984" Y="45594.3008" />
+				<Coordinate Order="105" X="34728.6016" Y="45669.5" />
+				<Coordinate Order="106" X="34754.8984" Y="45744.6016" />
+				<Coordinate Order="107" X="34784.8984" Y="45814.1992" />
+				<Coordinate Order="108" X="34845.1016" Y="45861.1992" />
+				<Coordinate Order="109" X="34852.6016" Y="45866.8008" />
+				<Coordinate Order="110" X="34831.8984" Y="45940.1016" />
+				<Coordinate Order="111" X="34888.3008" Y="45992.6992" />
+				<Coordinate Order="112" X="34939.1016" Y="46049.1016" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 1" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="35277.3984" Y="46975.8008" />
+				<Coordinate Order="1" X="35256.6992" Y="47049.1016" />
+				<Coordinate Order="2" X="35258.6016" Y="47124.1992" />
+				<Coordinate Order="3" X="35284.8984" Y="47195.6992" />
+				<Coordinate Order="4" X="35333.8008" Y="47253.8984" />
+				<Coordinate Order="5" X="35409" Y="47263.3008" />
+				<Coordinate Order="6" X="35440.8984" Y="47276.5" />
+				<Coordinate Order="7" X="35431.5" Y="47351.6992" />
+				<Coordinate Order="8" X="35427.8008" Y="47366.6992" />
+				<Coordinate Order="9" X="35416.5" Y="47353.5" />
+				<Coordinate Order="10" X="35362" Y="47338.5" />
+				<Coordinate Order="11" X="35343.1992" Y="47364.8008" />
+				<Coordinate Order="12" X="35354.5" Y="47440" />
+				<Coordinate Order="13" X="35375.1016" Y="47513.3008" />
+				<Coordinate Order="14" X="35405.1992" Y="47554.6992" />
+				<Coordinate Order="15" X="35450.3008" Y="47541.5" />
+				<Coordinate Order="16" X="35476.6016" Y="47470.1016" />
+				<Coordinate Order="17" X="35478.5" Y="47394.8984" />
+				<Coordinate Order="18" X="35501.1016" Y="47321.6016" />
+				<Coordinate Order="19" X="35518" Y="47238.8984" />
+				<Coordinate Order="20" X="35525.5" Y="47163.6992" />
+				<Coordinate Order="21" X="35521.6992" Y="47086.6016" />
+				<Coordinate Order="22" X="35491.6992" Y="47017.1016" />
+				<Coordinate Order="23" X="35467.1992" Y="46945.6992" />
+				<Coordinate Order="24" X="35435.3008" Y="46891.1992" />
+				<Coordinate Order="25" X="35382.6016" Y="46898.6992" />
+				<Coordinate Order="26" X="35322.5" Y="46925" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 2" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="35636.3984" Y="47208.8008" />
+				<Coordinate Order="1" X="35627" Y="47284" />
+				<Coordinate Order="2" X="35621.3008" Y="47359.1992" />
+				<Coordinate Order="3" X="35668.3008" Y="47419.3008" />
+				<Coordinate Order="4" X="35719.1016" Y="47477.6016" />
+				<Coordinate Order="5" X="35751" Y="47411.8008" />
+				<Coordinate Order="6" X="35747.3008" Y="47334.6992" />
+				<Coordinate Order="7" X="35717.1992" Y="47261.3984" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 3" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="35643.8984" Y="46945.6992" />
+				<Coordinate Order="1" X="35625.1016" Y="47019" />
+				<Coordinate Order="2" X="35621.3008" Y="47097.8984" />
+				<Coordinate Order="3" X="35655.1992" Y="47165.6016" />
+				<Coordinate Order="4" X="35707.8008" Y="47214.5" />
+				<Coordinate Order="5" X="35732.1992" Y="47143" />
+				<Coordinate Order="6" X="35719.1016" Y="47066" />
+				<Coordinate Order="7" X="35700.3008" Y="46992.6992" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 4" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="34595.1016" Y="46592.3008" />
+				<Coordinate Order="1" X="34622.6016" Y="46578.1016" />
+				<Coordinate Order="2" X="34654.3984" Y="46529" />
+				<Coordinate Order="3" X="34655.8008" Y="46477" />
+				<Coordinate Order="4" X="34642.8008" Y="46420.6992" />
+				<Coordinate Order="5" X="34634.1992" Y="46406.1992" />
+				<Coordinate Order="6" X="34582.1992" Y="46433.6992" />
+				<Coordinate Order="7" X="34533" Y="46465.3984" />
+				<Coordinate Order="8" X="34492.6016" Y="46508.8008" />
+				<Coordinate Order="9" X="34501.3008" Y="46566.6016" />
+				<Coordinate Order="10" X="34548.8984" Y="46601.3008" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 5" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="34739.6016" Y="46228.5" />
+				<Coordinate Order="1" X="34764.1992" Y="46283.3984" />
+				<Coordinate Order="2" X="34801.8008" Y="46328.1992" />
+				<Coordinate Order="3" X="34856.6992" Y="46348.3984" />
+				<Coordinate Order="4" X="34907.1992" Y="46319.5" />
+				<Coordinate Order="5" X="34944.8008" Y="46271.8008" />
+				<Coordinate Order="6" X="34944.8008" Y="46212.6016" />
+				<Coordinate Order="7" X="34918.8008" Y="46160.6016" />
+				<Coordinate Order="8" X="34881.1992" Y="46110" />
+				<Coordinate Order="9" X="34839.3008" Y="46069.6016" />
+				<Coordinate Order="10" X="34788.8008" Y="46099.8984" />
+				<Coordinate Order="11" X="34751.1992" Y="46146.1992" />
+				<Coordinate Order="12" X="34728.1016" Y="46199.6016" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 6" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="34403.6016" Y="45426" />
+				<Coordinate Order="1" X="34451.1016" Y="45467.3008" />
+				<Coordinate Order="2" X="34512.3984" Y="45470.3984" />
+				<Coordinate Order="3" X="34563" Y="45430.6016" />
+				<Coordinate Order="4" X="34543" Y="45370.8008" />
+				<Coordinate Order="5" X="34503.1992" Y="45323.3008" />
+				<Coordinate Order="6" X="34467.8984" Y="45271.1992" />
+				<Coordinate Order="7" X="34481.6992" Y="45211.3984" />
+				<Coordinate Order="8" X="34446.5" Y="45159.3008" />
+				<Coordinate Order="9" X="34385.1992" Y="45163.8984" />
+				<Coordinate Order="10" X="34336.1016" Y="45202.1992" />
+				<Coordinate Order="11" X="34345.3008" Y="45263.5" />
+				<Coordinate Order="12" X="34386.6992" Y="45311" />
+				<Coordinate Order="13" X="34394.3984" Y="45372.3008" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 7" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="34575.1016" Y="46104.6992" />
+				<Coordinate Order="1" X="34513.6992" Y="46086.3008" />
+				<Coordinate Order="2" X="34509.1016" Y="46024.8984" />
+				<Coordinate Order="3" X="34552.1016" Y="45977.3984" />
+				<Coordinate Order="4" X="34616.5" Y="45991.1992" />
+				<Coordinate Order="5" X="34665.6016" Y="46029.5" />
+				<Coordinate Order="6" X="34642.5" Y="46087.8008" />
+				<Coordinate Order="7" X="34702.3984" Y="46101.6016" />
+				<Coordinate Order="8" X="34713.1016" Y="46163" />
+				<Coordinate Order="9" X="34654.8008" Y="46187.5" />
+				<Coordinate Order="10" X="34608.8008" Y="46146.1016" />
+				<Coordinate Order="11" X="34628.6992" Y="46093.8984" />
+			</Coordinates>
+		</Annotation>
+	</Annotations>
+	<AnnotationGroups>
+		<Group Name="metastases" PartOfGroup="None" Color="#ff0000">
+			<Attributes />
+		</Group>
+	</AnnotationGroups>
+</ASAP_Annotations>

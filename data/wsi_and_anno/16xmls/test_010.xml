@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<ASAP_Annotations>
+	<Annotations>
+		<Annotation Name="Annotation 0" Type="Spline" PartOfGroup="_0" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="16547" Y="95177.1" />
+				<Coordinate Order="1" X="16454.2" Y="95214.1" />
+				<Coordinate Order="2" X="16410.3" Y="95302.1" />
+				<Coordinate Order="3" X="16407.8" Y="95399.1" />
+				<Coordinate Order="4" X="16437.1" Y="95495.1" />
+				<Coordinate Order="5" X="16520.1" Y="95551.1" />
+				<Coordinate Order="6" X="16612.9" Y="95585.1" />
+				<Coordinate Order="7" X="16710.6" Y="95578.1" />
+				<Coordinate Order="8" X="16739.9" Y="95526.1" />
+				<Coordinate Order="9" X="16747.2" Y="95468.1" />
+				<Coordinate Order="10" X="16715.5" Y="95368.1" />
+				<Coordinate Order="11" X="16678.9" Y="95275.1" />
+				<Coordinate Order="12" X="16612.9" Y="95202.1" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 1" Type="Spline" PartOfGroup="_0" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="81346.7" Y="147804" />
+				<Coordinate Order="1" X="81219.2" Y="147739" />
+				<Coordinate Order="2" X="81088.2" Y="147694" />
+				<Coordinate Order="3" X="80953.8" Y="147646" />
+				<Coordinate Order="4" X="80829.7" Y="147715" />
+				<Coordinate Order="5" X="80922.8" Y="147822" />
+				<Coordinate Order="6" X="81053.8" Y="147873" />
+				<Coordinate Order="7" X="81050.3" Y="148011" />
+				<Coordinate Order="8" X="80967.6" Y="148128" />
+				<Coordinate Order="9" X="81071" Y="148225" />
+				<Coordinate Order="10" X="81202" Y="148311" />
+				<Coordinate Order="11" X="81315.7" Y="148401" />
+				<Coordinate Order="12" X="81453.6" Y="148383" />
+				<Coordinate Order="13" X="81546.6" Y="148266" />
+				<Coordinate Order="14" X="81594.9" Y="148132" />
+				<Coordinate Order="15" X="81753.4" Y="148059" />
+				<Coordinate Order="16" X="81839.6" Y="147942" />
+				<Coordinate Order="17" X="81856.8" Y="147804" />
+				<Coordinate Order="18" X="81812" Y="147670" />
+				<Coordinate Order="19" X="81684.5" Y="147604" />
+				<Coordinate Order="20" X="81557" Y="147687" />
+				<Coordinate Order="21" X="81501.8" Y="147825" />
+			</Coordinates>
+		</Annotation>
+	</Annotations>
+	<AnnotationGroups>
+		<Group Name="_0" PartOfGroup="None" Color="#64FE2E">
+			<Attributes />
+		</Group>
+	</AnnotationGroups>
+</ASAP_Annotations>

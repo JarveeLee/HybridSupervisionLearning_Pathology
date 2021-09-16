@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<ASAP_Annotations>
+	<Annotations>
+		<Annotation Name="Annotation 0" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="26331.9004" Y="89309.2031" />
+				<Coordinate Order="1" X="26304.1992" Y="89283.1016" />
+				<Coordinate Order="2" X="26275.5" Y="89289.2031" />
+				<Coordinate Order="3" X="26265.1992" Y="89318" />
+				<Coordinate Order="4" X="26272" Y="89347.3984" />
+				<Coordinate Order="5" X="26285.0996" Y="89374.7969" />
+				<Coordinate Order="6" X="26300.0996" Y="89400.2031" />
+				<Coordinate Order="7" X="26320" Y="89420" />
+				<Coordinate Order="8" X="26341.9004" Y="89437.2031" />
+				<Coordinate Order="9" X="26369.3008" Y="89435.1016" />
+				<Coordinate Order="10" X="26396" Y="89422.1016" />
+				<Coordinate Order="11" X="26408.3008" Y="89397.3984" />
+				<Coordinate Order="12" X="26408.3008" Y="89368" />
+				<Coordinate Order="13" X="26390.5" Y="89344" />
+				<Coordinate Order="14" X="26364.5" Y="89324.1016" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 1" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="26478.9004" Y="89454.2969" />
+				<Coordinate Order="1" X="26448.8008" Y="89450.8984" />
+				<Coordinate Order="2" X="26421.4004" Y="89456.2969" />
+				<Coordinate Order="3" X="26402.9004" Y="89480.2969" />
+				<Coordinate Order="4" X="26411.8008" Y="89507.7031" />
+				<Coordinate Order="5" X="26433" Y="89529.6016" />
+				<Coordinate Order="6" X="26459.6992" Y="89545.3984" />
+				<Coordinate Order="7" X="26481.5996" Y="89563.8984" />
+				<Coordinate Order="8" X="26498.8008" Y="89588.5" />
+				<Coordinate Order="9" X="26517.3008" Y="89611.1016" />
+				<Coordinate Order="10" X="26540.5" Y="89628.8984" />
+				<Coordinate Order="11" X="26563.0996" Y="89650.2031" />
+				<Coordinate Order="12" X="26588.5" Y="89664.5" />
+				<Coordinate Order="13" X="26616.5996" Y="89665.2031" />
+				<Coordinate Order="14" X="26640.5" Y="89648.1016" />
+				<Coordinate Order="15" X="26650.8008" Y="89619.2969" />
+				<Coordinate Order="16" X="26637.0996" Y="89592.6016" />
+				<Coordinate Order="17" X="26612.5" Y="89575.5" />
+				<Coordinate Order="18" X="26596.6992" Y="89552.8984" />
+				<Coordinate Order="19" X="26574.8008" Y="89531" />
+				<Coordinate Order="20" X="26552.9004" Y="89513.2031" />
+				<Coordinate Order="21" X="26530.9004" Y="89494.7031" />
+				<Coordinate Order="22" X="26511.0996" Y="89474.1016" />
+			</Coordinates>
+		</Annotation>
+	</Annotations>
+	<AnnotationGroups>
+		<Group Name="metastases" PartOfGroup="None" Color="#ff0000">
+			<Attributes />
+		</Group>
+	</AnnotationGroups>
+</ASAP_Annotations>

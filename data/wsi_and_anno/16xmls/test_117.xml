@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<ASAP_Annotations>
+	<Annotations>
+		<Annotation Name="Annotation 0" Type="Spline" PartOfGroup="_0" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="54158.9" Y="127492" />
+				<Coordinate Order="1" X="53984.5" Y="127497" />
+				<Coordinate Order="2" X="53861.2" Y="127616" />
+				<Coordinate Order="3" X="53716.7" Y="127709" />
+				<Coordinate Order="4" X="53627.4" Y="127858" />
+				<Coordinate Order="5" X="53567.9" Y="128024" />
+				<Coordinate Order="6" X="53516.9" Y="128190" />
+				<Coordinate Order="7" X="53516.9" Y="128368" />
+				<Coordinate Order="8" X="53589.3" Y="128453" />
+				<Coordinate Order="9" X="53736.3" Y="128461" />
+				<Coordinate Order="10" X="53875.2" Y="128699" />
+				<Coordinate Order="11" X="53989.8" Y="128679" />
+				<Coordinate Order="12" X="54119.4" Y="128688" />
+				<Coordinate Order="13" X="54211.5" Y="128662" />
+				<Coordinate Order="14" X="54286.4" Y="128559" />
+				<Coordinate Order="15" X="54328.9" Y="128389" />
+				<Coordinate Order="16" X="54362.9" Y="128219" />
+				<Coordinate Order="17" X="54401.2" Y="128053" />
+				<Coordinate Order="18" X="54439.4" Y="127888" />
+				<Coordinate Order="19" X="54413.9" Y="127718" />
+				<Coordinate Order="20" X="54350.2" Y="127611" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 3" Type="Spline" PartOfGroup="_0" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="54309.2" Y="127382" />
+				<Coordinate Order="1" X="54289.9" Y="127342" />
+				<Coordinate Order="2" X="54250.1" Y="127322" />
+				<Coordinate Order="3" X="54213.6" Y="127347" />
+				<Coordinate Order="4" X="54196.4" Y="127387" />
+				<Coordinate Order="5" X="54184.6" Y="127429" />
+				<Coordinate Order="6" X="54196.4" Y="127472" />
+				<Coordinate Order="7" X="54243.7" Y="127469" />
+				<Coordinate Order="8" X="54282.3" Y="127449" />
+				<Coordinate Order="9" X="54311.3" Y="127417" />
+			</Coordinates>
+		</Annotation>
+	</Annotations>
+	<AnnotationGroups>
+		<Group Name="_0" PartOfGroup="None" Color="#64FE2E">
+			<Attributes />
+		</Group>
+	</AnnotationGroups>
+</ASAP_Annotations>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<ASAP_Annotations>
+	<Annotations>
+		<Annotation Name="Annotation 0" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="74148.6016" Y="127257" />
+				<Coordinate Order="1" X="74227.7969" Y="127274" />
+				<Coordinate Order="2" X="74242.1016" Y="127282" />
+				<Coordinate Order="3" X="74244.5" Y="127330" />
+				<Coordinate Order="4" X="74220.6016" Y="127372" />
+				<Coordinate Order="5" X="74172.6016" Y="127373" />
+				<Coordinate Order="6" X="74146.2969" Y="127326" />
+				<Coordinate Order="7" X="74140.2031" Y="127314" />
+				<Coordinate Order="8" X="74132.3984" Y="127287" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 1" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="75721.2969" Y="146295" />
+				<Coordinate Order="1" X="75687" Y="146309" />
+				<Coordinate Order="2" X="75692.1016" Y="146353" />
+				<Coordinate Order="3" X="75727.6016" Y="146384" />
+				<Coordinate Order="4" X="75760.6016" Y="146369" />
+				<Coordinate Order="5" X="75768.2031" Y="146329" />
+				<Coordinate Order="6" X="75752.8984" Y="146301" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 2" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="67014.8984" Y="34734.6992" />
+				<Coordinate Order="1" X="67082" Y="34751.8984" />
+				<Coordinate Order="2" X="67085.3984" Y="34774.3008" />
+				<Coordinate Order="3" X="67087.1016" Y="34812.1016" />
+				<Coordinate Order="4" X="67052.7031" Y="34837.8984" />
+				<Coordinate Order="5" X="67016.6016" Y="34832.8008" />
+				<Coordinate Order="6" X="66997.6016" Y="34786.3008" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 3" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="74080.1016" Y="141022" />
+				<Coordinate Order="1" X="74036" Y="141035" />
+				<Coordinate Order="2" X="74032.6016" Y="141059" />
+				<Coordinate Order="3" X="74046" Y="141093" />
+				<Coordinate Order="4" X="74085.1016" Y="141101" />
+				<Coordinate Order="5" X="74108.3984" Y="141083" />
+				<Coordinate Order="6" X="74103.3984" Y="141044" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 4" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="66450" Y="48627.1016" />
+				<Coordinate Order="1" X="66412.7031" Y="48640.8008" />
+				<Coordinate Order="2" X="66406.2969" Y="48657.1016" />
+				<Coordinate Order="3" X="66410.7969" Y="48692.6992" />
+				<Coordinate Order="4" X="66440.8984" Y="48714.5" />
+				<Coordinate Order="5" X="66461.8984" Y="48707.1992" />
+				<Coordinate Order="6" X="66489.2031" Y="48693.6016" />
+				<Coordinate Order="7" X="66484.6016" Y="48656.1992" />
+				<Coordinate Order="8" X="66471" Y="48628.8984" />
+			</Coordinates>
+		</Annotation>
+		<Annotation Name="Annotation 5" Type="Polygon" PartOfGroup="metastases" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="44831.3984" Y="156063" />
+				<Coordinate Order="1" X="44818.1016" Y="156111" />
+				<Coordinate Order="2" X="44851.3008" Y="156146" />
+				<Coordinate Order="3" X="44894.1992" Y="156135" />
+				<Coordinate Order="4" X="44910.3984" Y="156097" />
+				<Coordinate Order="5" X="44882.3984" Y="156052" />
+			</Coordinates>
+		</Annotation>
+	</Annotations>
+	<AnnotationGroups>
+		<Group Name="metastases" PartOfGroup="None" Color="#ff0000">
+			<Attributes />
+		</Group>
+	</AnnotationGroups>
+</ASAP_Annotations>

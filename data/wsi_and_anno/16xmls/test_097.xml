@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ASAP_Annotations>
+	<Annotations>
+		<Annotation Name="Annotation 0" Type="Spline" PartOfGroup="_0" Color="#F4FA58">
+			<Coordinates>
+				<Coordinate Order="0" X="16695.2" Y="158590" />
+				<Coordinate Order="1" X="16603.6" Y="158707" />
+				<Coordinate Order="2" X="16501" Y="158817" />
+				<Coordinate Order="3" X="16581.6" Y="158942" />
+				<Coordinate Order="4" X="16713.5" Y="159011" />
+				<Coordinate Order="5" X="16849.1" Y="159070" />
+				<Coordinate Order="6" X="16995.6" Y="159095" />
+				<Coordinate Order="7" X="17145.8" Y="159095" />
+				<Coordinate Order="8" X="17303.4" Y="159095" />
+				<Coordinate Order="9" X="17453.6" Y="159095" />
+				<Coordinate Order="10" X="17592.8" Y="159033" />
+				<Coordinate Order="11" X="17680.8" Y="158909" />
+				<Coordinate Order="12" X="17578.2" Y="158802" />
+				<Coordinate Order="13" X="17363.5" Y="158823" />
+				<Coordinate Order="14" X="17367.8" Y="158663" />
+				<Coordinate Order="15" X="17145.9" Y="158645" />
+				<Coordinate Order="16" X="16995.6" Y="158703" />
+				<Coordinate Order="17" X="16860.1" Y="158645" />
+			</Coordinates>
+		</Annotation>
+	</Annotations>
+	<AnnotationGroups>
+		<Group Name="_0" PartOfGroup="None" Color="#64FE2E">
+			<Attributes />
+		</Group>
+	</AnnotationGroups>
+</ASAP_Annotations>
