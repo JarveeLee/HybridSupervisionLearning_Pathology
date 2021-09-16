@@ -8,6 +8,7 @@ Jiahui Li, Wen Chen, Xiaodi Huang, Shuang Yang, Zhiqiang Hu, Qi Duan, Dimitris N
 ## Description
 
 An in-depth paragraph about your project and overview of use.
+![alt text](git_shows/pipeline.png)
 
 ## Getting Started
 
