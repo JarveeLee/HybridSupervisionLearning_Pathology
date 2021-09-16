@@ -7,7 +7,7 @@ Jiahui Li, Wen Chen, Xiaodi Huang, Shuang Yang, Zhiqiang Hu, Qi Duan, Dimitris N
 
 ## Description
 
-Hybrid supervision learning in computational pathology this is a difficult task for this reason:
+Hybrid supervision learning in computational pathology is a difficult task for this reason:
 High resolution of whole slide images makes it difficult to do end-to-end
 classification model training. To handle this problem, we
 propose a hybrid supervision learning framework for this kind of high resolution images with sufficient image-level coarse annotations and a few
