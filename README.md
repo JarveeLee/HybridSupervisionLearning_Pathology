@@ -13,7 +13,11 @@ classification model training. To handle this problem, we
 propose a hybrid supervision learning framework for this kind of high resolution images with sufficient image-level coarse annotations and a few
 pixel-level fine labels. This framework, when applied in training patch
 model, can carefully make use of coarse image-level labels to refine generated pixel-level pseudo labels. Complete strategy is proposed to suppress
-pixel-level false positives and false negatives
+pixel-level false positives and false negatives.
+
+This code need to run third times to ensemble pixel-level prediction, then run stage2 to 
+get 0.9243, 4th in Camelyon17 challenge.  
+
 ![alt text](git_shows/pipeline.png)
 ![alt text](git_shows/strategy.png)
 ![alt text](git_shows/formula.png)
