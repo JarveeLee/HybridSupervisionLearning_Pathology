@@ -26,18 +26,27 @@ get 0.9243, 4th in Camelyon17 challenge, the submission.csv is my submission fil
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* I have a GPU cluster, using 'srun python' to submit task. Modify code in orders/ to fit your machine.
+* Pytorch, opencv, numpy, scikit-learn, scikit-image, PIL. 
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* 'pip install' all those packages 
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* 1,  Replace paths of your whole slide images in 'data/train_pos_1_wsi.txt' et al.
+* 2,  Firstly go to data/, 'python crop_segmentation.py' to generate finegrain pixel labels from xmls.
+* 3,  'python orders/Stage1_M_step_init.py' to train initial models.
+* 4,  'python orders/Stage1_E_step_init_generate_pseudo_label.py' to generate pseudo labels for all whole slide images.
+* 5,  'python oswalk.py' to generate paths indexes, replace keys.
+* 6,  Repeat step 3~5 from 'init' to 'round3'
+* 7,  'python orders/Stage1_E_step_round3_generate_pseudo_label_for_testdata.py' to generate pseudo labels for all whole slide images.
+* 8,  'python Stage2_classification_generate_heatmap.py' to generate down sampled heatmaps.
+* 9,  ensemble heatmaps from several trail.
+* 10, 'python Stage2_classifier.py' to generate submission file from ensembled heatmaps.
+
+
 ```
 code blocks for commands
 ```
