@@ -16,7 +16,7 @@ model, can carefully make use of coarse image-level labels to refine generated p
 pixel-level false positives and false negatives.
 
 This code need to run third times to ensemble pixel-level prediction, then run stage2 to 
-get 0.9243, 4th in Camelyon17 challenge.  
+get 0.9243, 4th in Camelyon17 challenge, the submission.csv is my submission file.  
 
 ![alt text](git_shows/pipeline.png)
 ![alt text](git_shows/strategy.png)
