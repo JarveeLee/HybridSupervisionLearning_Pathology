@@ -7,8 +7,16 @@ Jiahui Li, Wen Chen, Xiaodi Huang, Shuang Yang, Zhiqiang Hu, Qi Duan, Dimitris N
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Hybrid supervision learning in computational pathology this is a difficult task for this reason:
+High resolution of whole slide images makes it difficult to do end-to-end
+classification model training. To handle this problem, we
+propose a hybrid supervision learning framework for this kind of high resolution images with sufficient image-level coarse annotations and a few
+pixel-level fine labels. This framework, when applied in training patch
+model, can carefully make use of coarse image-level labels to refine generated pixel-level pseudo labels. Complete strategy is proposed to suppress
+pixel-level false positives and false negatives
 ![alt text](git_shows/pipeline.png)
+![alt text](git_shows/strategy.png)
+![alt text](git_shows/formula.png)
 
 ## Getting Started
 
