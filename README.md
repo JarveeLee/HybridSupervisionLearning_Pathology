@@ -44,7 +44,7 @@ get 0.9243, 4th in Camelyon17 challenge, the submission.csv is my submission fil
 * 6,  Repeat step 3~5 from 'init' to 'round3'
 * 7,  'python orders/Stage1_E_step_round3_generate_pseudo_label_for_testdata.py' to generate pseudo labels for all whole slide images.
 * 8,  'python Stage2_classification_generate_heatmap.py' to generate down sampled heatmaps.
-* 9,  ensemble heatmaps from several trail.
+* 9,  Ensemble heatmaps from several trails.
 * 10, 'python Stage2_classifier.py' to generate submission file from ensembled heatmaps.
 * 11, Hyperparameters ( T, V, K, R ) are directly written in dataloader.py and Stage1_E_step_generate_pseudo_label.py.
 
