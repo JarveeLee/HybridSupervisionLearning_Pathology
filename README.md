@@ -36,7 +36,7 @@ get 0.9243, 4th in Camelyon17 challenge, the submission.csv is my submission fil
 
 ### Executing program
 
-* 1,  Replace paths of your whole slide images in 'data/train_pos_1_wsi.txt' et al.
+* 1,  Replace paths of your whole slide images in 'data/wsi_and_anno/train_pos_1_wsi.txt' et al.
 * 2,  Firstly go to data/, 'python crop_segmentation.py' to generate finegrain pixel labels from xmls.
 * 3,  'python orders/Stage1_M_step_init.py' to train initial models.
 * 4,  'python orders/Stage1_E_step_init_generate_pseudo_label.py' to generate pseudo labels for all whole slide images.
