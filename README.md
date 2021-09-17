@@ -28,7 +28,7 @@ get 0.9243, 4th in Camelyon17 challenge, the submission.csv is my submission fil
 ### Dependencies
 
 * I have a GPU cluster, using 'srun python' to submit task. Modify code in orders/ to fit your machine.
-* Pytorch, opencv, numpy, scikit-learn, scikit-image, PIL, openslide. 
+* Pytorch, torchvision, opencv, numpy, scikit-learn, scikit-image, PIL, openslide, albumentations. This code did not use strange function thus it could be process by any version of those packages.
 
 ### Installing
 
