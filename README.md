@@ -61,6 +61,8 @@ Jiahui Li, lijiahui@sensetime.com or jarveelee@gmail.com
     * Initial Release
 
 ## Acknowledgments
-* [Deep Layer Aggregation](https://github.com/ucbdrive/dla)
+* [Multi instance learning, image-level baseline](https://github.com/MSKCC-Computational-Pathology/MIL-nature-medicine-2019)
+* [Generalized Framework for Whole-Slide Image Segmentation, pixel-level baseline](https://github.com/haranrk/DigiPathAI)
+* [Deep Layer Aggregation, my backbone model](https://github.com/ucbdrive/dla)
 
 
