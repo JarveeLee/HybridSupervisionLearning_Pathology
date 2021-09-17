@@ -21,15 +21,6 @@ def feature_extract(heatmap):
     for i in [0.9]:
         f_tp = _feature_extract_thre(heatmap, threshold=int(i*255)) 
         fs += f_tp
-    #all_area_0_5, area_0_5, extent_0_5, eccentricity_0_5, major_axis_length_0_5, mean_intensity_0_5, solidity_0_5, perimeter_0_5 = _feature_extract_thre(heatmap, threshold=128)
-    #   <2> threshold 0.9
-    #all_area_0_9, area_0_9, extent_0_9, eccentricity_0_9, major_axis_length_0_9, mean_intensity_0_9, solidity_0_9, perimeter_0_9 = _feature_extract_thre(heatmap, threshold=229)
-    #f_tp = _feature_extract_thre(heatmap, threshold=229) 
-    #fs += f_tp
-    
-    #f_tp = dis(heatmap)
-    #fs += list(f_tp)
-           
     
     
     return np.array(fs)

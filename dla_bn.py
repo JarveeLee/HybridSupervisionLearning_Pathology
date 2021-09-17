@@ -335,38 +335,6 @@ class DLA(nn.Module):
         self.load_state_dict(model_zoo.load_url(model_url))
         self.fc = fc
         print('pretrained loaded',model_url)
-'''
-def dla_mini(pretrained=None,geno = None, **kwargs):  # DLA-34
-
-    model = DLA([1, 1, 1, 1, 1, 1],
-                [4096, 2048, 1024, 512, 256, 128],
-                block=BasicBlock, **kwargs)
-    #if pretrained is not None:
-    #   model.load_pretrained_model(pretrained, 'dla34')
-    return model
-	
-class Dla_Cube(nn.Module):
-    def __init__(self,c = 2,f_hid = 16, in_channels = 3584):
-        super().__init__()
-        # define pre-train model parameters
-        self.res_cls = dla_mini(classes = f_hid, in_channels = 3584)
-        self.pool = nn.AdaptiveMaxPool1d(1)
-        self.ce0 = nn.Conv1d(f_hid, f_hid   , 1)
-        self.ce1 = nn.Conv1d(f_hid, c, 1)
-
-    def forward(self, x_cube):
-        B,C,H,W,T  = x_cube.size()
-        x_fl = []
-        for i in range(0,T):
-            x_batch = x_cube[...,i]
-            x_f     = self.res_cls(x_batch)
-            x_fl.append(x_f)
-        x_fl = torch.stack(x_fl,2)#[B,C,T]
-        x_1d = self.pool(x_fl)#[B,C,1]
-        x = self.ce0(x_1d)#[B,f_hid,1]
-        x = self.ce1(x).squeeze(2)#[B,c]
-        return x
-'''
 
 def dla34(pretrained=None, **kwargs):  # DLA-34
 

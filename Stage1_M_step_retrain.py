@@ -167,18 +167,6 @@ class AverageMeter(object):
         self.avg = self.sum / self.count
 
 
-# def accuracy(output, target):
-#     """Computes the precision@k for the specified values of k"""
-#     # batch_size = target.size(0) * target.size(1) * target.size(2)
-#     _, pred = output.max(1)
-#     pred = pred.view(1, -1)
-#     target = target.view(1, -1)
-#     correct = pred.eq(target)
-#     correct = correct[target != 255]
-#     correct = correct.view(-1)
-#     score = correct.float().sum(0).mul(100.0 / correct.size(0))
-#     return score.item()
-
 
 def train(args, train_loader, val_loader, model, criterion, optimizer, start_epoch, end_epoch , print_freq=50 , val_freq = 1):
     batch_time = AverageMeter()
@@ -251,7 +239,6 @@ def train(args, train_loader, val_loader, model, criterion, optimizer, start_epo
                 viz.save(path)
 
         if epoch_this % val_freq == 0 and i % loader_length == 0 and i > 0:
-            #prec1 = validate(args, val_loader, model, criterion)
             prec1 = 0
             best_prec1 = max(prec1, best_prec1)
 
@@ -285,29 +272,9 @@ def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):
 
 def train_seg(args):
 
-    if args.arch == 'resnet34':
-        import resnet 
-        model = resnet.Res_DNet(classes = args.classes)
-    elif args.arch == 'mobilenet':
-        import light.model.mobilenetv3_seg as mbs
-        model = mbs.get_mobilenet_v3_small_seg_xiaobiaoben(classes = 2)
-		
-    elif args.arch == 'unet':
-        import unet
-        model = unet.UNet1024(co = args.classes)
-		
-    elif args.arch == 'dense34':
-        import densenet
-        model = densenet.densenet34_seg(num_classes = args.classes)
-		
-    elif args.arch == 'deeplab':
-        import deeplab
-        model = deeplab.resnet50(num_classes = args.classes)
-		
-    else:
-        import dla_up_bn as dla_up
-        pretrained_base = args.pretrained_base
-        model = dla_up.__dict__.get(args.arch)(args.classes, pretrained_base, down_ratio=args.down)
+    import dla_up_bn as dla_up
+    pretrained_base = args.pretrained_base
+    model = dla_up.__dict__.get(args.arch)(args.classes, pretrained_base, down_ratio=args.down)
 
     model = torch.nn.DataParallel(model).to(args.device)
 
@@ -319,26 +286,8 @@ def train_seg(args):
     criterion = torch.nn.BCEWithLogitsLoss()
     criterion.to(args.device)
     data_dir = args.data_dir
-    #info = dataset.load_dataset_info('info.json')
-    #normalize = transforms.Normalize(mean=info.mean, std=info.std)
-    #t = [transforms.Resize(args.scale_size)]
     t = []
 	
-    '''
-    t.append(transforms.RandomCrop(args.crop_size))
-    if args.random_rotate > 0:
-        t.append(transforms.RandomRotate(args.random_rotate))
-    if args.random_scale > 0:
-        # t.append(transforms.RandomScale(args.random_scale))
-        t.append(transforms.RandomScale(
-            [1 - args.random_scale, 1 + args.random_scale]))
-    t.append(transforms.RandomCrop(args.crop_size))
-    if args.random_color:
-        t.append(transforms.RandomJitter(0.4, 0.4, 0.4))
-              transforms.RandomHorizontalFlip(),
-              transforms.RandomVerticalFlip()
-    
-    '''
     t.extend([transforms.RandomJitter(0.4, 0.4, 0.4),transforms.ToTensor()])
 	
     t2 = transforms.Compose([transforms.RandomCrop(1024)])
@@ -365,11 +314,8 @@ def train_seg(args):
         if os.path.isfile(args.resume):
             print("=> loading checkpoint '{}'".format(args.resume))
             checkpoint = torch.load(args.resume)
-            #start_epoch = checkpoint['epoch']
             best_prec1 = checkpoint['best_prec1']
             dc = checkpoint['state_dict']
-            #del dc['module.fc.0.weight']
-            #del dc['module.fc.0.bias']
             model.load_state_dict(dc)
             print("=> loaded checkpoint '{}' (epoch {})"
                   .format(args.resume, checkpoint['epoch']))
