@@ -65,7 +65,7 @@ Jiahui Li, lijiahui@sensetime.com or jarveelee@gmail.com
 * [Multi instance learning, image-level baseline in the paper](https://github.com/MSKCC-Computational-Pathology/MIL-nature-medicine-2019)
 * [Generalized Framework for Whole-Slide Image Segmentation, pixel-level baseline](https://github.com/haranrk/DigiPathAI)
 * [Deep Layer Aggregation, my backbone model](https://github.com/ucbdrive/dla)
-* [Streaming convolutional neural networks for end-to-end learning with multi-megapixel images, a better end to end image-level training pipeline with memory compresion technique](https://github.com/DIAGNijmegen/StreamingCNN)
+* [Streaming convolutional neural networks for end-to-end learning with multi-megapixel images, a better end to end image-level training pipeline with memory compression technique](https://github.com/DIAGNijmegen/StreamingCNN)
 * [Cluster-to-Conquer: A Framework for End-to-End Multi-Instance Learning for Whole Slide Image Classification, a better end to end image-level training pipeline with patch clustering technique](https://github.com/YashSharma/C2C)
 * [Data Efficient and Weakly Supervised Computational Pathology on Whole Slide Images, a better end to end image-level training pipeline with patch clustering technique](https://github.com/mahmoodlab/CLAM)
 
