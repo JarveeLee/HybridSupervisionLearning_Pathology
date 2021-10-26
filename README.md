@@ -4,6 +4,7 @@ This is the code of
 Hybrid Supervision Learning for Pathology Whole Slide Image Classification, Sensetime Research, accepted in MICCAI2021.
 Jiahui Li, Wen Chen, Xiaodi Huang, Shuang Yang, Zhiqiang Hu, Qi Duan, Dimitris N. Metaxas, Hongsheng Li and Shaoting Zhang
 
+Paper link is here(https://arxiv.org/abs/2107.00934).
 
 ## Description
 
